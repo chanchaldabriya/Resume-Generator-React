@@ -1,0 +1,80 @@
+{
+    "name": "Chanchal Dabriya",
+    "designation": "Software Engineer",
+    "intro_summary": "To be able to work in an efficient organisation that provides ample opportunities in order to achieve continuous development and growth of my skills and always Inspire me to Aspire for MORE.",
+    "social_profiles": {
+        "mail": "chanchaldabriya@gmail.com",
+        "phone": "+91-8823995447",
+        "address": "15-16-C, MP Colony, Hiran Magri Sector-13, Udaipur, Rajasthan, India",
+        "birthday": "22 September, 1994",
+        "linkedin": "linkedin.com/in/chanchaldabriya",
+        "skype": "chanchaldabriya7"
+    },
+    "work_experience": {
+        "title": "Software Engineer",
+        "company": "Metacube Software Pvt. Ltd.",
+        "date": "08/2018 - Present",
+        "location": "Jaipur",
+        "previous_titles": [
+            "Associate Software Engineer (08/2016 - 08/2018)",
+            "Trainee Software Engineer (01/2016 - 08/2016)"
+        ]
+    },
+    "projects": [
+        {
+            "title": "Tier1 Financial Solutions (Tier1CRM) (05/2016 – Present)",
+            "tasks": [
+                "TORONTO (Canada) based client with a BANKING sectored app & team size of 15 members",
+                "Part of DEVELOPER team of hybrid app supported on Web, Phone & Tablet",
+                "Salesforce based CRM app used by major banks like Barclays, Royal Bank Of Canada (RBC), AllianceBernstein (AB), Toronto-Dominion (TD)",
+                "Task to facilitate in all the development tasks targeted to support most of the MOBILE DEVICES expediting performance",
+                "Also extensively worked on project SETUP, BUILD & DEPLOYMENT support - felicitous to both client as well as fellow DEVs"
+            ]
+        },
+        {
+            "title": "Mr. Tire / Monro Inc. / Cognistx (01/2016 – 05/2016)",
+            "tasks": [
+                "An Automator app automating the tasks related to scheduling vehicle service appointments, easy spare part shopping, product recommendations & unlocking offers based on multi-distributed user & vehicle data",
+                "App available on both iOS & Android app with complete Onboarding & maintenance of user & vehicle data",
+                "Worked on ANDROID app segment using JAVA & Android SDK",
+                "Dev role to create new layouts for various functionalities maintaining performance & responsiveness of the app to target major segment of mobile devices"
+            ]
+        }
+    ],
+    "education": {
+        "degree": "B.Tech",
+        "specialization": "Computer Science",
+        "college": "Techno India NJR Institute of Technology",
+        "university": "Rajasthan Technical University",
+        "date": "01/2012 – 05/2016",
+        "location": "Udaipur"
+    },
+    "technical_skills": [
+        "HTML", "CSS", "JS", "Sencha Ext JS", "Cordova", "SCSS", "React JS", "Redux", "Java", "Android", "jQuery", "Node JS", "SVN", "ES6"
+    ],
+    "certifications": [
+        "Oracle Certified Professional - JAVA SE 6 Programmer (03/2015 – Present)"
+    ],
+    "languages": [
+        {
+            "name": "English",
+            "proficiency": "Professional Working Proficiency"
+        },
+        {
+            "name": "Hindi",
+            "proficiency": "Professional Working Proficiency"
+        }
+    ],
+    "interests": [
+        "Cricket", "Badminton", "Gaming", "Trekking", "Mobile Apps", "Game Development", "UI Design", "Online Coding Challenges"
+    ],
+    "summary": [
+        "4+ years of Professional experience",
+        "Worked on both Native as well as hybrid mobile projects",
+        "Appreciated as a Trainer for imparting knowledge to new recruits regarding Web Development technologies",
+        "Worked with JS frameworks like EXTJS and ReactJS",
+        "Familiar with Android(Java), Cordova and React Native as Mobile development technologies",
+        "Apart from development, provided support in codebase setup, build creation & deployment, SDK updation etc. areas to the team"
+    ]
+
+}
