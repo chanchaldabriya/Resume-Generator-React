@@ -13,11 +13,11 @@
     "work_experience": {
         "title": "Software Engineer",
         "company": "Metacube Software Pvt. Ltd.",
-        "date": "08/2018 - Present",
+        "date": "01/2016 - Present",
         "location": "Jaipur",
         "previous_titles": [
-            "Associate Software Engineer (08/2016 - 08/2018)",
-            "Trainee Software Engineer (01/2016 - 08/2016)"
+            "Associate Software Engineer",
+            "Trainee Software Engineer"
         ]
     },
     "projects": [
@@ -46,11 +46,11 @@
         "specialization": "Computer Science",
         "college": "Techno India NJR Institute of Technology",
         "university": "Rajasthan Technical University",
-        "date": "01/2012 – 05/2016",
+        "date": "08/2012 – 07/2016",
         "location": "Udaipur"
     },
     "technical_skills": [
-        "HTML", "CSS", "JS", "Sencha Ext JS", "Cordova", "SCSS", "React JS", "Redux", "Java", "Android", "jQuery", "Node JS", "SVN", "ES6"
+        "HTML", "CSS", "JS", "Sencha Ext JS", "Cordova", "SCSS", "React JS", "Redux", "Java", "Android", "jQuery", "Node JS", "SVN", "ES6", "Typescript", "React Material UI", "Jest", "Enzyme"
     ],
     "certifications": [
         "Oracle Certified Professional - JAVA SE 6 Programmer (03/2015 – Present)"
@@ -69,7 +69,7 @@
         "Cricket", "Badminton", "Gaming", "Trekking", "Mobile Apps", "Game Development", "UI Design", "Online Coding Challenges"
     ],
     "summary": [
-        "4+ years of Professional experience",
+        "4.5+ years of Professional experience",
         "Worked on both Native as well as hybrid mobile projects",
         "Appreciated as a Trainer for imparting knowledge to new recruits regarding Web Development technologies",
         "Worked with JS frameworks like EXTJS and ReactJS",
