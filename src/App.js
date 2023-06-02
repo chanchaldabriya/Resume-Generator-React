@@ -18,18 +18,22 @@ export default function App() {
       <div className="App-two-panel">
         <div className="App-left-panel">
           <Section title="Work Experience">
-            <Post
-              title={data.work_experience.title}
-              subtitle={data.work_experience.company}
-              location={data.work_experience.location}
-              dateRange={data.work_experience.date}
-            >
-            <List
-              style={{padding: '10px 0 0 0'}}
-              subtitle="Previous titles -"
-              items={data.work_experience.previous_titles}
-            />
-            </Post>
+            {
+              data?.work_experience?.map(exp => (
+                <Post
+                  title={exp?.title}
+                  subtitle={exp?.company}
+                  location={exp?.location}
+                  dateRange={exp?.date}
+                >
+                  <List
+                    style={{ padding: '10px 0 0 0' }}
+                    subtitle="Previous titles -"
+                    items={exp?.previous_titles}
+                  />
+                </Post>
+              ))
+            }
           </Section>
           <Section title="Projects">
             {data.projects.map(project => (
@@ -40,6 +44,8 @@ export default function App() {
               />
             ))}
           </Section>
+        </div>
+        <div className="App-right-panel">
           <Section title="Education">
             <Post
               title={`${data.education.degree} in ${data.education.specialization}`}
@@ -48,8 +54,6 @@ export default function App() {
               dateRange={data.education.date}
             />
           </Section>
-        </div>
-        <div className="App-right-panel">
           <Section title="Technical Skills">
             <Chips list={data.technical_skills} />
           </Section>

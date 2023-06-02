@@ -21,12 +21,13 @@
   padding: 10px;
 }
 
-.Intro > div {
+.Intro>div {
   margin: 5px 0;
 }
 
-.Intro-name {
+.Intro .Intro-name {
   font-size: 34px;
+  margin-left: -2px;
 }
 
 .Intro-designation {
@@ -47,7 +48,7 @@
   display: flex;
 }
 
-.Social > div {
+.Social>div {
   flex: 1;
 }
 
@@ -83,8 +84,8 @@
 }
 
 .Section {
-  padding: 10px;
-  margin: 10px 0;
+  padding: 5px;
+  margin: 5px 0;
 }
 
 .Section-title {
@@ -99,14 +100,14 @@
   padding: 10px;
 }
 
-.App-two-panel > div {
+.App-two-panel>div {
   flex: 1;
   padding-left: 35px;
 }
 
 .Post {
-  margin: 10px 0;
-  padding: 10px 0;
+  margin: 5px 0;
+  padding: 5px 0;
 }
 
 .Post-title {
@@ -147,14 +148,14 @@
   list-style-type: none;
 }
 
-.List-items > li {
+.List-items>li {
   font-size: 12px;
-  margin: 7px 0;
+  margin: 5px 0;
   font-weight: 500;
   display: flex;
 }
 
-.List-items > li:before {
+.List-items>li:before {
   content: "o";
   padding-right: 8px;
   color: var(--main-color);
