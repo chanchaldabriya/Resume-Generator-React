@@ -1,41 +1,60 @@
 {
     "name": "Chanchal Dabriya",
-    "designation": "Software Engineer",
+    "designation": "Lead Software Developer",
     "intro_summary": "To be able to work in an efficient organisation that provides ample opportunities in order to achieve continuous development and growth of my skills and always Inspire me to Aspire for MORE.",
     "social_profiles": {
         "mail": "chanchaldabriya@gmail.com",
         "phone": "+91-8823995447",
         "address": "15-16-C, MP Colony, Hiran Magri Sector-13, Udaipur, Rajasthan, India",
         "birthday": "22 September, 1994",
-        "linkedin": "linkedin.com/in/chanchaldabriya",
-        "skype": "chanchaldabriya7"
+        "linkedin": "linkedin.com/in/chanchaldabriya"
     },
-    "work_experience": {
-        "title": "Software Engineer",
-        "company": "Metacube Software Pvt. Ltd.",
-        "date": "01/2016 - Present",
-        "location": "Jaipur",
-        "previous_titles": [
-            "Associate Software Engineer",
-            "Trainee Software Engineer"
-        ]
-    },
+    "work_experience": [
+        {
+            "title": "Lead Software Developer",
+            "company": "Valtech",
+            "date": "11/2020 - Present",
+            "location": "Bengaluru",
+            "previous_titles": [
+                "Senior Software Developer"
+            ]
+        },
+        {
+            "title": "Software Engineer",
+            "company": "Metacube Software Pvt. Ltd.",
+            "date": "01/2016 - 11/2020",
+            "location": "Jaipur",
+            "previous_titles": [
+                "Associate Software Engineer",
+                "Trainee Software Engineer"
+            ]
+        }
+    ],
     "projects": [
         {
-            "title": "Tier1 Financial Solutions (Tier1CRM) (05/2016 – Present)",
+            "title": "Zee5 (11/2020 – Present)",
+            "tasks": [
+                "Online video streaming Over The Top (OTT) platform by Zee Entertainment Enterprises",
+                "Part of PWA/Web team based on React.js/Redux tech stack and collaborating with iOS/Android/BE team",
+                "Gave prized contributions to the SUBSCRIPTION module which is responsible for driving substantial revenue growth for Zee5",
+                "Closely worked with the PRODUCT team on UI development of numerous Subscription/Rental journeys, User Campaigns & initiatives - as part of MONETISATION squad",
+                "Leading the Web team for MONETISATION squad & coordinating related operations with other divisional squads"
+            ]
+        },
+        {
+            "title": "Tier1 Financial Solutions (Tier1CRM) (06/2016 – 11/2020)",
             "tasks": [
                 "TORONTO (Canada) based client with a BANKING sectored app & team size of 15 members",
-                "Part of DEVELOPER team of hybrid app supported on Web, Phone & Tablet",
+                "Part of DEVELOPER team of hybrid app supported on Web, Phone & Tablet based on Sencha ExtJS & Cordova stack",
                 "Salesforce based CRM app used by major banks like Barclays, Royal Bank Of Canada (RBC), AllianceBernstein (AB), Toronto-Dominion (TD)",
-                "Task to facilitate in all the development tasks targeted to support most of the MOBILE DEVICES expediting performance",
+                "Task to facilitate in all the development tasks targeted to support most of the MOBILE DEVICES surveiling performance",
                 "Also extensively worked on project SETUP, BUILD & DEPLOYMENT support - felicitous to both client as well as fellow DEVs"
             ]
         },
         {
-            "title": "Mr. Tire / Monro Inc. / Cognistx (01/2016 – 05/2016)",
+            "title": "Mr. Tire / Monro Inc. / Cognistx (01/2016 – 06/2016)",
             "tasks": [
-                "An Automator app automating the tasks related to scheduling vehicle service appointments, easy spare part shopping, product recommendations & unlocking offers based on multi-distributed user & vehicle data",
-                "App available on both iOS & Android app with complete Onboarding & maintenance of user & vehicle data",
+                "An Automator app (automating the tasks related to scheduling vehicle service appointments, spare part shopping, unlocking offers etc.) available on both iOS & Android platforms with complete Onboarding & maintenance of user & vehicle data",
                 "Worked on ANDROID app segment using JAVA & Android SDK",
                 "Dev role to create new layouts for various functionalities maintaining performance & responsiveness of the app to target major segment of mobile devices"
             ]
@@ -50,7 +69,18 @@
         "location": "Udaipur"
     },
     "technical_skills": [
-        "HTML", "CSS", "JS", "Sencha Ext JS", "Cordova", "SCSS", "React JS", "Redux", "Java", "Android", "jQuery", "Node JS", "SVN", "ES6", "Typescript", "React Material UI", "Jest", "Enzyme"
+        "React.js",
+        "Redux",
+        "HTML",
+        "CSS/SCSS",
+        "JS",
+        "Typescript",
+        "Jest",
+        "React Testing Library",
+        "Sencha Ext JS",
+        "Cordova",
+        "Java",
+        "Android"
     ],
     "certifications": [
         "Oracle Certified Professional - JAVA SE 6 Programmer (03/2015 – Present)"
@@ -66,15 +96,16 @@
         }
     ],
     "interests": [
-        "Cricket", "Badminton", "Gaming", "Trekking", "Mobile Apps", "Game Development", "UI Design", "Online Coding Challenges"
+        "Cricket",
+        "Badminton",
+        "Gaming",
+        "Trekking"
     ],
     "summary": [
-        "4.5+ years of Professional experience",
-        "Worked on both Native as well as hybrid mobile projects",
-        "Appreciated as a Trainer for imparting knowledge to new recruits regarding Web Development technologies",
-        "Worked with JS frameworks like EXTJS and ReactJS",
-        "Familiar with Android(Java), Cordova and React Native as Mobile development technologies",
-        "Apart from development, provided support in codebase setup, build creation & deployment, SDK updation etc. areas to the team"
+        "7+ years of Professional experience",
+        "Substantially worked with Javascript & its related technologies/frameworks",
+        "Led the SUBSCRIPTION module's Web team for one of the leading OTT platform of INDIA",
+        "Worked on both Native as well as hybrid mobile projects in the past",
+        "Appreciated as a Trainer for imparting knowledge to new recruits regarding Web Development technologies"
     ]
-
 }
