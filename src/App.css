@@ -40,6 +40,11 @@
   font-size: 15px;
 }
 
+.Intro-experience {
+  font-size: 14px;
+  color: var(--main-color);
+}
+
 .Social {
   background-color: var(--main-color);
   color: white;
@@ -55,6 +60,7 @@
 .Social ul {
   font-size: 14px;
   list-style-type: none;
+  margin: 0;
 }
 
 .Social li {
@@ -68,9 +74,14 @@
   min-width: 20px;
 }
 
+.SocialItem-link {
+  text-decoration: none;
+  color: white;
+}
+
 .Chips {
-  margin: 10px 0;
-  padding: 10px 0;
+  /* margin: 10px 0; */
+  padding: 0 0 10px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -96,14 +107,16 @@
 }
 
 .App-two-panel {
-  display: flex;
-  padding: 10px;
+  /* display: flex; */
+  padding: 16px 16px 10px 45px;
+  column-count: 2;
+  column-gap: 40px;
 }
 
-.App-two-panel>div {
+/* .App-two-panel>div {
   flex: 1;
   padding-left: 35px;
-}
+} */
 
 .Post {
   margin: 5px 0;
@@ -132,8 +145,18 @@
   padding: 10px 0;
 }
 
+.List-title-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
 .List-title {
   font-size: 15px;
+}
+
+.List-title-desc {
+  font-size: 12px;
+  color: var(--main-color);
 }
 
 .List-subtitle {

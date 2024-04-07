@@ -10,7 +10,7 @@ export default function Social({ profiles }) {
         <ul>
           {profileArr.slice(0, halfLength).map(item => (
             <li key={item[0]}>
-              <SocialItem icon={item[0]} text={item[1]} key={item[0]} />
+              <SocialItem type={item[0]} text={item[1]} />
             </li>
           ))}
         </ul>
@@ -19,7 +19,7 @@ export default function Social({ profiles }) {
         <ul>
           {profileArr.slice(halfLength).map(item => (
             <li key={item[0]}>
-              <SocialItem icon={item[0]} text={item[1]} key={item[0]} />
+              <SocialItem type={item[0]} text={item[1]} />
             </li>
           ))}
         </ul>

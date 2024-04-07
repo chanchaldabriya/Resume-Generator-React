@@ -2,19 +2,19 @@
     "name": "Chanchal Dabriya",
     "designation": "Lead Software Developer",
     "intro_summary": "To be able to work in an efficient organisation that provides ample opportunities in order to achieve continuous development and growth of my skills and always Inspire me to Aspire for MORE.",
+    "intro_experience": "8+ years of Professional experience",
     "social_profiles": {
         "mail": "chanchaldabriya@gmail.com",
-        "phone": "+91-8823995447",
-        "address": "15-16-C, MP Colony, Hiran Magri Sector-13, Udaipur, Rajasthan, India",
-        "birthday": "22 September, 1994",
-        "linkedin": "linkedin.com/in/chanchaldabriya"
+        "phone": "+91-8823995447",        
+        "linkedin": "linkedin.com/in/chanchaldabriya",
+        "github": "github.com/chanchaldabriya"
     },
     "work_experience": [
         {
             "title": "Lead Software Developer",
             "company": "Valtech",
             "date": "11/2020 - Present",
-            "location": "Bengaluru",
+            "location": "Bengaluru, India",
             "previous_titles": [
                 "Senior Software Developer"
             ]
@@ -23,7 +23,7 @@
             "title": "Software Engineer",
             "company": "Metacube Software Pvt. Ltd.",
             "date": "01/2016 - 11/2020",
-            "location": "Jaipur",
+            "location": "Jaipur, India",
             "previous_titles": [
                 "Associate Software Engineer",
                 "Trainee Software Engineer"
@@ -32,10 +32,30 @@
     ],
     "projects": [
         {
-            "title": "Zee5 (11/2020 – Present)",
+            "title": "THE RIG. (10/2023 – Present)",
+            "titleDesc": "https://therig.sa/",
+            "tasks": [
+                "THE RIG is an adventure tourism destination company based out in Saudi Arabia which has extreme theme parks inspired by oil platforms as a celebration to Saudi's rich oil & gas heritage",
+                "Worked on implementation of THE RIG's web app based on Next.js and Material UI React and catering new requirements",
+                "Responsible for creating smooth & pixel perfect UI components. Also contributed to Email templates"
+            ]
+        },
+        {
+            "title": "KAFD (11/2023 – Present)",
+            "titleDesc": "https://www.kafd.sa/",
+            "tasks": [
+                "KAFD(King Abdullah Financial District) is a prime business & lifestyle destination located in Riyadh (Saudi Arabia) empowering businesses through access to advanced office infrastructure and sustainable smart city solutions and a plethora of leading leisure & retail facilities",
+                "Website based on HTML, SCSS, Tailwind CSS, jQuery & Sitecore",
+                "Responsible for Front end of the application & its responsive behavior across various devices",
+                "Catered to various Support & Maintenance requests by the client every now & then"
+            ]
+        },
+        {
+            "title": "Zee5 (11/2020 – 09/2023)",
+            "titleDesc": "https://www.zee5.com/",
             "tasks": [
                 "Online video streaming Over The Top (OTT) platform by Zee Entertainment Enterprises",
-                "Part of PWA/Web team based on React.js/Redux tech stack and collaborating with iOS/Android/BE team",
+                "Part of PWA/Web team based on React.js/Redux tech stack and collaborating with iOS/Android/BE teams",
                 "Gave prized contributions to the SUBSCRIPTION module which is responsible for driving substantial revenue growth for Zee5",
                 "Closely worked with the PRODUCT team on UI development of numerous Subscription/Rental journeys, User Campaigns & initiatives - as part of MONETISATION squad",
                 "Leading the Web team for MONETISATION squad & coordinating related operations with other divisional squads"
@@ -44,7 +64,7 @@
         {
             "title": "Tier1 Financial Solutions (Tier1CRM) (06/2016 – 11/2020)",
             "tasks": [
-                "TORONTO (Canada) based client with a BANKING sectored app & team size of 15 members",
+                "TORONTO (Canada) based client with a BANKING sectored app & team size of 12-15 members",
                 "Part of DEVELOPER team of hybrid app supported on Web, Phone & Tablet based on Sencha ExtJS & Cordova stack",
                 "Salesforce based CRM app used by major banks like Barclays, Royal Bank Of Canada (RBC), AllianceBernstein (AB), Toronto-Dominion (TD)",
                 "Task to facilitate in all the development tasks targeted to support most of the MOBILE DEVICES surveiling performance",
@@ -72,13 +92,16 @@
         "React.js",
         "Redux",
         "HTML",
-        "CSS/SCSS",
-        "JS",
+        "CSS",
+        "SCSS",
+        "Javascript",
         "Typescript",
         "Jest",
         "React Testing Library",
-        "Sencha Ext JS",
-        "Cordova",
+        "Material UI React",
+        "Next.js",
+        "Tailwind CSS",
+        "jQuery",        
         "Java",
         "Android"
     ],
@@ -102,7 +125,7 @@
         "Trekking"
     ],
     "summary": [
-        "7+ years of Professional experience",
+        "8+ years of Professional experience",
         "Substantially worked with Javascript & its related technologies/frameworks",
         "Led the SUBSCRIPTION module's Web team for one of the leading OTT platform of INDIA",
         "Worked on both Native as well as hybrid mobile projects in the past",

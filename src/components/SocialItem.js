@@ -1,11 +1,13 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedinIn, faSkype } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedinIn, faSkype, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faMapMarkerAlt, faMobileAlt, faBirthdayCake, faAtom } from '@fortawesome/free-solid-svg-icons';
 
-export default function SocialItem({icon, text}) {
+const LINK_TYPES = ["github", "linkedin"];
+
+export default function SocialItem({type, text}) {
     let faIcon;
-    switch(icon) {
+    switch(type) {
         case "mail":
             faIcon=faEnvelope;
         break;
@@ -29,6 +31,10 @@ export default function SocialItem({icon, text}) {
         case "skype":
             faIcon=faSkype;
         break;
+
+        case "github":
+            faIcon=faGithub;
+        break;
         
         default:
             faIcon=faAtom;
@@ -36,7 +42,11 @@ export default function SocialItem({icon, text}) {
     return (
         <div className="SocialItem">
             <FontAwesomeIcon icon={faIcon} className="SocialItem-icon" />
-            <span className="SocialItem-text">{text}</span>
+            {
+                LINK_TYPES.includes(type) ?
+                    <a className="SocialItem-link" rel='noreferrer' href={`https://${text}`} target='_blank'>{text}</a> :
+                    <span className="SocialItem-text">{text}</span>
+            }
         </div>
     );
 }
